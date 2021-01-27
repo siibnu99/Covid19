@@ -1,28 +1,24 @@
 <template>
   <div class="hero">
     <div class="flex container mx-auto p-4 h-screen items-center">
-      <div class="w-full">
-        <img src="@/assets/img/hero.png" class="w-full" alt="" />
-      </div>
-      <div>
-        <h1 class="text-4xl font-extrabold text-blue-600 dark:text-white">
-          Informasi Tentang <span class="text-yellow-400">Covid 19</span> Dengan
-          API
-          <a
-            href="https://kawalcorona.com/api/"
-            class="hborder-b-2 border-blue-500"
-            target="_blank"
-            >Kawalcorona.com</a
-          >
+      <div class="w-1/2">
+        <h1
+          class="text-4xl font-extrabold text-blue-600 dark:text-white capitalize"
+        >
+          COVID 19 merupakan virus yang berbeda dari
+          <span class="text-yellow-400">virus biasanya</span>
         </h1>
         <h2 class="pl-2 pt-2 text-gray-600 text-extrabold my-5 dark:text-white">
-          Semoga korona lekas hilang dan bisa menjalankan aktifitas sebagaiamana
-          mestinya. Lihat data terbaru tentang Covid 19
+          Virus Corona atau severe acute respiratory syndrome coronavirus 2
+          (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit
+          karena infeksi virus ini disebut COVID-19. Virus Corona bisa
+          menyebabkan gangguan ringan pada sistem pernapasan, infeksi paru-paru
+          yang berat, hingga kematian.
         </h2>
         <button
           class="bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-2xl transform hover:scale-105 transition duration-500 hover:bg-blue-700 flex items-center focus:outline-none"
         >
-          Pantau Corona
+          Pelajari Lebih Lanjut
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="18"
@@ -37,6 +33,9 @@
             />
           </svg>
         </button>
+      </div>
+      <div class="w-1/2">
+        <img src="@/assets/svg/corona.svg" class="w-full" alt="" />
       </div>
     </div>
   </div>
