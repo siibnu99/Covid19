@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="flex container mx-auto p-4 h-screen items-center">
+    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
       <div class="w-1/2">
         <h1
           class="text-4xl font-extrabold text-blue-600 dark:text-white capitalize"

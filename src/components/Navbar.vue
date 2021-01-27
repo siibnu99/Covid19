@@ -1,7 +1,7 @@
 <template>
   <nav class="navbar sticky top-0 z-50 bg-white dark:bg-gray-700">
     <div
-      class="container mx-auto p-4 flex justify-between text-gray-700 items-center"
+      class="container mx-auto p-4 px-28 flex justify-between text-gray-700 items-center"
     >
       <div class="logo">
         <router-link to="/"

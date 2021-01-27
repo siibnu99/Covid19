@@ -1,6 +1,6 @@
 <template>
   <div class="said">
-    <div class="flex container mx-auto p-4 h-screen items-center">
+    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
       <div class="w-full text-center dark:text-white">
         <h1 class="text-2xl font-bold">Data COVID 19 Hari ini!</h1>
         <h2>Data covid ini diperoleh dari API Kawalcorona.com</h2>

@@ -1,6 +1,6 @@
 <template>
   <div class="hero">
-    <div class="flex container mx-auto p-4 h-screen items-center">
+    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
       <div class="w-full">
         <img src="@/assets/img/hero.png" class="w-full" alt="" />
       </div>
