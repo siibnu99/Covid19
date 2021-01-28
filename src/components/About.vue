@@ -1,14 +1,22 @@
 <template>
-  <div class="hero">
-    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
-      <div class="w-1/2">
+  <div class="about" data-aos="fade-right" data-aos-duration="1000">
+    <div
+      class="flex flex-col-reverse md:flex-row container mx-auto p-4 px-4 md:px-28 h-auto md:h-screen items-center md:space-y-0"
+    >
+      <div
+        class="w-full md:w-1/2 text-center md:text-left"
+        data-aos="fade-right"
+        data-aos-duration="2000"
+      >
         <h1
-          class="text-4xl font-extrabold text-blue-600 dark:text-white capitalize"
+          class="text-lg md:text-4xl font-extrabold text-blue-600 dark:text-white capitalize"
         >
           COVID 19 merupakan virus yang berbeda dari
           <span class="text-yellow-400">virus biasanya</span>
         </h1>
-        <h2 class="pl-2 pt-2 text-gray-600 text-extrabold my-5 dark:text-white">
+        <h2
+          class="pl-2 pt-2 text-gray-600 text-extrabold my-5 dark:text-white text-sm md:text-md"
+        >
           Virus Corona atau severe acute respiratory syndrome coronavirus 2
           (SARS-CoV-2) adalah virus yang menyerang sistem pernapasan. Penyakit
           karena infeksi virus ini disebut COVID-19. Virus Corona bisa
@@ -16,7 +24,7 @@
           yang berat, hingga kematian.
         </h2>
         <button
-          class="bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-2xl transform hover:scale-105 transition duration-500 hover:bg-blue-700 flex items-center focus:outline-none"
+          class="bg-blue-600 text-white font-semibold p-3 rounded-lg shadow-2xl transform hover:scale-105 transition duration-500 hover:bg-blue-700 flex items-center focus:outline-none mx-auto md:mx-0"
         >
           Pelajari Lebih Lanjut
           <svg
@@ -34,7 +42,7 @@
           </svg>
         </button>
       </div>
-      <div class="w-1/2">
+      <div class="w-3/4 md:w-1/2" data-aos="fade-left" data-aos-duration="2000">
         <img src="@/assets/svg/corona.svg" class="w-full" alt="" />
       </div>
     </div>
@@ -43,7 +51,7 @@
 
 <script>
 export default {
-  name: "Hero",
+  name: "About",
 };
 </script>
 

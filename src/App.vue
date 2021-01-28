@@ -58,4 +58,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+nav.xl .router-link-active {
+  border-bottom: 2px solid white;
+}
 </style>

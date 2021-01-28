@@ -1,13 +1,31 @@
 <template>
-  <div class="said">
-    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
+  <div class="said bg-overlay1" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div
+      class="flex container mx-auto p-4 px-4 md:px-28 h-auto md:h-screen items-center"
+    >
       <div class="w-full text-center dark:text-white">
-        <h1 class="text-2xl font-bold">Data COVID 19 Hari ini!</h1>
-        <h2>Data covid ini diperoleh dari API Kawalcorona.com</h2>
-        <div
-          class="flex justify-between text-gray-700 space-x-10 mt-20 text-left"
+        <h1
+          class="text-2xl font-bold text-blue-600 dark:text-yellow-400"
+          data-aos="fade-up"
+          data-aos-duration="2000"
         >
-          <div class="w-1/2 text-center">
+          Data COVID 19 Hari ini!
+        </h1>
+        <h2
+          class="text-lg font-medium"
+          data-aos="fade-up"
+          data-aos-duration="2000"
+        >
+          Data covid ini diperoleh dari API Kawalcorona.com
+        </h2>
+        <div
+          class="flex justify-between flex-col md:flex-row text-gray-700 space-y-10 md:space-y-0 md:space-x-10 mt-20 text-left"
+        >
+          <div
+            class="w-full md:w-1/2 text-center"
+            data-aos="fade-right"
+            data-aos-duration="2000"
+          >
             <h1 class="text-2xl dark:text-white font-bold">Data Global</h1>
             <div
               class="text-left flex mt-10 justify-between flex-col space-y-2"
@@ -89,7 +107,11 @@
               </div>
             </div>
           </div>
-          <div class="w-1/2 text-center">
+          <div
+            class="w-full md:w-1/2 text-center"
+            data-aos="fade-left"
+            data-aos-duration="2000"
+          >
             <h1 class="text-2xl dark:text-white font-bold">Data Indonesia</h1>
             <div
               class="text-left flex mt-10 justify-between flex-col space-y-2"

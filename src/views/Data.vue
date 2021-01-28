@@ -1,7 +1,7 @@
 <template>
   <div class="home">
-    <Heropage page="About" />
-    <Said />
+    <Heropage page="Data Hari Ini" />
+    <Datas />
     <Abouts />
     <Footer />
   </div>
@@ -10,7 +10,7 @@
 <script>
 // @ is an alias to /src
 import Heropage from "@/components/Heropage.vue";
-import Said from "@/components/Said.vue";
+import Datas from "@/components/Data.vue";
 import Abouts from "@/components/About.vue";
 import Footer from "@/components/Footer.vue";
 
@@ -18,7 +18,7 @@ export default {
   name: "Home",
   components: {
     Heropage,
-    Said,
+    Datas,
     Abouts,
     Footer,
   },

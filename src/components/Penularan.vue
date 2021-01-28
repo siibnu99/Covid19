@@ -1,15 +1,21 @@
 <template>
-  <div class="hero">
-    <div class="flex container mx-auto p-4 px-28 h-screen items-center">
-      <div class="w-full pr-20 space-y-5">
+  <div class="hero" data-aos="zoom-in-up" data-aos-duration="1000">
+    <div
+      class="flex container mx-auto p-4 px-4 md:px-28 h-auto md:h-screen flex-col md:flex-row items-center"
+    >
+      <div class="w-full md:w-full md:pr-20 space-y-5">
         <h1
           class="text-2xl font-extrabold text-blue-600 dark:text-white capitalize"
+          data-aos="fade-up"
+          data-aos-duration="2000"
         >
           Bagaiamana Corona bisa <span class="text-yellow-400">tertular</span>?
         </h1>
-        <div class="flex space-x-10 dark:text-white">
+        <div
+          class="flex flex-col md:flex-row space-x-0 md:space-x-10 dark:text-white text-gray-600 text-center md:text-left"
+        >
           <div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <div
                 class="p-2 m-2 bg-gray-200 shadow-lg text-blue-800 rounded-lg inline-block"
               >
@@ -33,7 +39,7 @@
                   </g>
                 </svg>
               </div>
-              <div>
+              <div data-aos="fade-up" data-aos-duration="2000">
                 <h1 class="font-bold h-14 text-md">
                   Tidak Sengaja Menghirup Percikan Ludah
                 </h1>
@@ -43,7 +49,7 @@
                 </h6>
               </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <div
                 class="p-2 m-2 bg-gray-200 shadow-lg text-blue-800 rounded-lg inline-block"
               >
@@ -69,8 +75,8 @@
                   </g>
                 </svg>
               </div>
-              <div>
-                <h1 class="font-bold h-14 text-md">
+              <div data-aos="fade-up" data-aos-duration="2000">
+                <h1 class="font-bold h-20 md:h-14 text-md">
                   Memegang mulut atau hidung tanpa mencuci tangan terlebih dulu
                 </h1>
                 <h6 class="text-sm h-20">
@@ -82,7 +88,7 @@
             </div>
           </div>
           <div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <div
                 class="p-2 m-2 bg-gray-200 shadow-lg text-blue-800 rounded-lg inline-block"
               >
@@ -111,7 +117,7 @@
                 </h6>
               </div>
             </div>
-            <div>
+            <div data-aos="fade-up" data-aos-duration="2000">
               <div
                 class="p-2 m-2 bg-gray-200 shadow-lg text-blue-800 rounded-lg inline-block"
               >
@@ -142,7 +148,7 @@
           </div>
         </div>
       </div>
-      <div class="w-1/2">
+      <div class="w-3/4 md:w-1/2">
         <img src="@/assets/svg/masker.svg" class="w-full" alt="" />
       </div>
     </div>
